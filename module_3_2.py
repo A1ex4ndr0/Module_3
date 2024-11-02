@@ -13,7 +13,7 @@ def send_email(message, recipient, *, sender = "university.help@gmail.com"):
     elif sender == recipient:
         print("Нельзя отправить письмо самому себе!")
     elif k + l == 0 or k + l == 1:
-        print(f'Невозможно отправить письмо с адреса {sender} на адрес {recipient}')
+        print(f'Невозможно отправить письмо с адреса {sender} на адрес {recipient}.')
     else:
         print(f"НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса {sender} на адрес {recipient}.")
 
